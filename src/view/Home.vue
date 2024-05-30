@@ -400,7 +400,7 @@ function url2Base64(url, type = "image/jpeg") {
     img.crossOrigin = "anonymous";
     img.onload = function () {
       const width = img.width;
-      height = img.height;
+      const height = img.height;
       canvas.width = width;
       canvas.height = height;
 
